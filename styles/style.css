@@ -4,5 +4,49 @@
 }
 
 *{
-    background-color: var(--color-hard);
+    background: var(--color-soft);
+    font-family: "Inter", sans-serif;
+    font-weight: <weight>;
+    font-style: normal;
 }
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.main-section1-area{
+    border: none;
+    color: var(--color-hard);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+ ::placeholder {color:var(--color-hard);}
+ .main-section1-area:focus{
+    outline: none;
+ }
+
+ .main-section2-area{
+
+    background: white;
+    background-image: url("../assets/cryptokey.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--color-hard);
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+ }
+ 
+ .main-section2-area:focus {
+    outline: none;
+ }
