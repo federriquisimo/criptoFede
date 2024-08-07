@@ -1,0 +1,8 @@
+:root {
+    --color-hard: #2F52A3;
+    --color-soft: #c7d5f6;
+}
+
+*{
+    background-color: var(--color-hard);
+}
